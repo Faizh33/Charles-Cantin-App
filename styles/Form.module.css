@@ -1,0 +1,82 @@
+.Container {
+    padding-bottom: 50px;
+}
+
+.FormContainer {
+    border : 2px solid white;
+    width: 55vw;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px 2px rgba(150, 155, 158, 0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(150, 155, 158, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(150, 155, 158, 0.75);
+}
+
+.FormLabel {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.FormInput, .Textarea {
+    background: #EAF6FA;
+    border-radius: 15px;
+    width: 240px;
+    border: 2px solid #47555E;
+    margin-bottom: 10px;
+}
+
+.FormInput {
+    height: 35px;
+}
+
+.Textarea {
+    height: 100px;
+}
+
+.FormBtn {
+    color: white;
+    font-weight: 500;
+    width: 60%;
+    border: none;
+    border-radius: 15px;
+    background: rgb(4,35,60);
+    background: linear-gradient(90deg, rgba(4,35,60,1) 0%, rgba(140,160,169,1) 54%, rgba(6,182,218,1) 100%);
+    height: 35px;
+    display: block;
+    margin-top: 5px;
+    margin: auto;
+}
+
+.Require {
+    color: red;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    
+    .FormContainer {
+        width: 50vw;
+    }
+
+    .FormLabel {
+        font-size: 24;
+    }
+
+    .FormBtn {
+        width: 210px;
+        height: 40px;
+    }
+
+    .FormInput {
+        width: 320px;
+    }
+
+    .Textarea {
+        width: 70%;
+    }
+    
+}
