@@ -1,7 +1,19 @@
-const contact = () => {
+import Title from '../Components/Title';
+import Form from '../Components/Form';
+
+
+const Contact = () => {
   return (
-    <div>contact</div>
+    <div className="Contact">
+        <Title text="Contactez-moi" />
+        <Form />
+        <style jsx> {`
+        .Contact {
+          background: #EFF7FA;
+        }
+      `}</style>
+    </div>
   )
 }
 
-export default contact
+export default Contact
