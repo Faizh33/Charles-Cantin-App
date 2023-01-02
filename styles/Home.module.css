@@ -1,17 +1,20 @@
 .Hometext {
   font-family: 'Ballet', cursive;
   color: white;
-  font-size: 4.5em;
+  font-size: 3.7em;
   font-weight: bold;
   text-align: center;
-  margin: 50px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   text-shadow: rgb(116, 116, 116) 1px 0px 0px, rgb(116, 116, 116) 0.540302px 0.841471px 0px, rgb(116, 116, 116) -0.416147px 0.909297px 0px, rgb(116, 116, 116) -0.989992px 0.14112px 0px, rgb(116, 116, 116) -0.653644px -0.756802px 0px, rgb(116, 116, 116) 0.283662px -0.958924px 0px, rgb(116, 116, 116) 0.96017px -0.279416px 0px;
 }
 
 
 @media screen and (min-width: 590px) {
 
-.Hometext {
-  margin-top: 100px;
-}
+  .Hometext {
+    margin-top: 100px;
+    font-size: 4.5em;
+  }
 }
