@@ -41,17 +41,19 @@ import portrait4 from '../public/pictures/portrait4-min.jpg';
 const Galerie = () => {
   
   const [stylePict, setStylePict] = useState("HiddenPictures");
-  const [styleBtn, setStyleBtn] = useState("BtnViewMore1")
+  const [styleBtn, setStyleBtn] = useState("BtnViewMore1");
   
   const changeStyle = () => {
     setStylePict("ShowPictures");
     setStyleBtn("ShowPictures");
   };
+  
 
 
   return (
     <div className={styles.GalerieContainer}>
         <div className={styles.FilterButton}>
+            <Button label="Tous" link="/galerie/mariage" />
             <Button label="Mariage" link="/galerie/mariage" />
             <Button label="Grossesse" link="/galerie/grossesse" />
             <Button label="Bébé" link="/galerie/bebe" />

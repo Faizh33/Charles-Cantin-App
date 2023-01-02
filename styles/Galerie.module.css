@@ -79,6 +79,7 @@
         flex-wrap: nowrap;
         flex-direction: row;
         align-items: stretch;
+        justify-content: space-around;
     }
     
     .ColumnLeft {order: 1}
