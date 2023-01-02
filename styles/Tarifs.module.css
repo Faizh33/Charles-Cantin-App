@@ -1,0 +1,23 @@
+.Tarifs {
+    background-color: #EFF7FA;
+}
+
+.ArticleTarifs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ArticleTarifs:last-child {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (min-width: 590px) {
+    
+    .ArticleTarifs {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
