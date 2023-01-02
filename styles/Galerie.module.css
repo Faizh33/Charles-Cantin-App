@@ -1,0 +1,91 @@
+.GalerieContainer {
+    background: #EFF7FA;
+}
+
+.FilterButton {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+@keyframes fade {
+    From {
+    Opacity : 0 ;
+    }
+    To {
+    Opacity : 1 ;
+    }
+}
+
+.OnePictContainer {
+    padding: 0.8vw;
+    Animation-name : fade ;
+    Animation-delay : 0s ;
+    Animation-duration : 2s ;
+    Animation-iteration-count : 1 ;
+}
+
+
+
+/* Button view more */
+.BtnViewMore {
+    display: flex;
+}
+
+.BtnViewMore1 {
+    margin: auto;
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    color: white;
+    font-style: italic;
+    background: rgb(4,35,60);
+    background: linear-gradient(90deg, rgba(4,35,60,1) 0%, rgba(140,160,169,1) 54%, rgba(6,182,218,1) 100%);
+    border: 3px solid white;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.BtnViewMore2 {
+    display: none;
+}
+
+
+.HiddenPictures {
+    display: none;
+}
+
+.ShowPictures {
+    display: block;
+}
+
+
+@media screen and (min-width: 750px) {
+    
+    .FilterButton {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 530px) {
+    
+    .PictureContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+    .ColumnLeft {order: 1}
+    
+    .ColumnCenter {order: 2}
+    
+    .ColumnRight {order: 3}
+    
+}
+
