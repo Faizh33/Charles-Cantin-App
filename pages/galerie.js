@@ -65,69 +65,84 @@ const Galerie = () => {
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bapteme1} alt="bapteme" />
+                src={bapteme1} 
+                alt="bapteme" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bebe1} alt="bebe" />
+                src={bebe1} 
+                alt="bebe" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={couple1} alt="couple" />
+                src={couple1} 
+                alt="couple" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={famille1} alt="famille" />
+                src={famille1} 
+                alt="famille" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={grossesse1} alt="grossesse" 
+                src={grossesse1} 
+                alt="grossesse" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={mariage1} alt="mariage" 
+                src={mariage1} 
+                alt="mariage" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={portrait1} alt="portrait" 
+                src={portrait1} 
+                alt="portrait" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bapteme2} alt="bapteme" 
+                src={bapteme2} 
+                alt="bapteme" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bebe2} alt="bebe" 
+                src={bebe2} 
+                alt="bebe" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={couple2} alt="couple" 
+                src={couple2} 
+                alt="couple" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={famille2} alt="famille" 
+                src={famille2} 
+                alt="famille" 
                 className={stylePict} 
               />
             </div>
@@ -136,69 +151,84 @@ const Galerie = () => {
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={grossesse2} alt="grossesse" />
+                src={grossesse2} 
+                alt="grossesse" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={mariage2} alt="mariage" />
+                src={mariage2} 
+                alt="mariage" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={portrait2} alt="portrait" />
+                src={portrait2} 
+                alt="portrait" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bapteme3} alt="bapteme" />
+                src={bapteme3} 
+                alt="bapteme" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bebe3} alt="bebe"  
-                className={stylePict}/
-             >
+                src={bebe3} 
+                alt="bebe"  
+                className={stylePict}
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={couple3} alt="couple" 
+                src={couple3} 
+                alt="couple" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={famille3} alt="famille" 
+                src={famille3} 
+                alt="famille" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={grossesse3} alt="grossesse" 
+                src={grossesse3} 
+                alt="grossesse" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={mariage3} alt="mariage" 
+                src={mariage3} 
+                alt="mariage" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={portrait3} alt="portrait" 
+                src={portrait3} 
+                alt="portrait" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bapteme4} alt="bapteme" 
+                src={bapteme4} 
+                alt="bapteme" 
                 className={stylePict} 
               />
             </div>
@@ -207,67 +237,83 @@ const Galerie = () => {
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={portrait4} alt="portrait" />
+                src={portrait4} 
+                alt="portrait" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bapteme5} alt="bapteme" />
+                src={bapteme5} 
+                alt="bapteme" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bebe5} alt="bebe" />
+                src={bebe5} 
+                alt="bebe" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={couple5} alt="couple" />
+                src={couple5} 
+                alt="couple" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={mariage4} alt="mariage" />
+                src={mariage4} 
+                alt="mariage" 
+              />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={famille5} alt="famille" 
+                src={famille5} 
+                alt="famille" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={grossesse5} alt="grossesse" 
+                src={grossesse5} 
+                alt="grossesse" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={bebe4} alt="bebe" 
+                src={bebe4} 
+                alt="bebe" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={couple4} alt="couple" 
+                src={couple4} 
+                alt="couple" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={famille4} alt="famille" 
+                src={famille4} 
+                alt="famille" 
                 className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
               <Image 
                 width={400}
-                src={grossesse4} alt="grossesse" 
+                src={grossesse4} 
+                alt="grossesse" 
                 className={stylePict} 
               />
             </div>
