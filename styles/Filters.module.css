@@ -1,0 +1,15 @@
+.FilterButton {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (min-width: 750px) {
+    
+    .FilterButton {
+        padding-top: 30px;
+    }
+}
