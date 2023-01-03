@@ -1,27 +1,18 @@
-import Button from '../Components/Button';
+import Filters from '../Components/Filters';
 import styles from'../styles/Galerie.module.css';
 import Image from 'next/image';
 
-import bebe1 from '../Pictures/bebe1-min.jpg';
-import bebe2 from '../Pictures/bebe2-min.jpg';
-import bebe3 from '../Pictures/bebe3-min.jpg';
-import bebe4 from '../Pictures/bebe4-min.jpg';
-import bebe5 from '../Pictures/bebe5-min.jpg';
+import bebe1 from '../public/pictures/bebe1-min.jpg';
+import bebe2 from '../public/pictures/bebe2-min.jpg';
+import bebe3 from '../public/pictures/bebe3-min.jpg';
+import bebe4 from '../public/pictures/bebe4-min.jpg';
+import bebe5 from '../public/pictures/bebe5-min.jpg';
 
 
 const GalerieBebe = () => {
     return (
     <div className={styles.GalerieContainer}>
-      <div className={styles.FilterButton}>
-        <Button label="Tous" link="/galerie/" />
-        <Button label="Mariage" link="/galerie/mariage" />
-        <Button label="Grossesse" link="/galerie/grossesse" />
-        <Button label="Bébé" link="/galerie/bebe" />
-        <Button label="Famille" link="/galerie/famille" />
-        <Button label="Baptême" link="/galerie/bapteme" />
-        <Button label="Couple" link="/galerie/couple" />
-        <Button label="Portrait" link="/galerie/portrait" />
-      </div>
+      <Filters />
       <div className={styles.PictureContainer}>
         <div className={styles.ColumnLeft}>
           <div className={styles.OnePictContainer}>

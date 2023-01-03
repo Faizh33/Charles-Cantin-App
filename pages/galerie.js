@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import Button from '../Components/Button';
+import Filters from '../Components/Filters';
 import styles from'../styles/Galerie.module.css';
 import Image from 'next/image'
 
@@ -39,29 +38,9 @@ import portrait4 from '../public/pictures/portrait4-min.jpg';
 
 
 const Galerie = () => {
-  
-  const [stylePict, setStylePict] = useState("HiddenPictures");
-  const [styleBtn, setStyleBtn] = useState("BtnViewMore1");
-  
-  const changeStyle = () => {
-    setStylePict("ShowPictures");
-    setStyleBtn("ShowPictures");
-  };
-  
-
-
   return (
     <div className={styles.GalerieContainer}>
-        <div className={styles.FilterButton}>
-            <Button label="Tous" link="/galerie/mariage" />
-            <Button label="Mariage" link="/galerie/mariage" />
-            <Button label="Grossesse" link="/galerie/grossesse" />
-            <Button label="Bébé" link="/galerie/bebe" />
-            <Button label="Famille" link="/galerie/famille" />
-            <Button label="Baptême" link="/galerie/bapteme" />
-            <Button label="Couple" link="/galerie/couple" />
-            <Button label="Portrait" link="/galerie/portrait" />
-        </div>
+        <Filters />
         <div className={styles.PictureContainer}>
           <div className={styles.ColumnLeft}>
             <div className={styles.OnePictContainer}>
@@ -97,7 +76,6 @@ const Galerie = () => {
                 width={400}
                 src={grossesse1} 
                 alt="grossesse" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -105,7 +83,6 @@ const Galerie = () => {
                 width={400}
                 src={mariage1} 
                 alt="mariage" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -113,7 +90,6 @@ const Galerie = () => {
                 width={400}
                 src={portrait1} 
                 alt="portrait" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -121,7 +97,6 @@ const Galerie = () => {
                 width={400}
                 src={bapteme2} 
                 alt="bapteme" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -129,7 +104,6 @@ const Galerie = () => {
                 width={400}
                 src={bebe2} 
                 alt="bebe" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -137,7 +111,6 @@ const Galerie = () => {
                 width={400}
                 src={couple2} 
                 alt="couple" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -145,7 +118,6 @@ const Galerie = () => {
                 width={400}
                 src={famille2} 
                 alt="famille" 
-                className={stylePict} 
               />
             </div>
           </div>
@@ -183,7 +155,6 @@ const Galerie = () => {
                 width={400}
                 src={bebe3} 
                 alt="bebe"  
-                className={stylePict}
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -191,7 +162,6 @@ const Galerie = () => {
                 width={400}
                 src={couple3} 
                 alt="couple" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -199,7 +169,6 @@ const Galerie = () => {
                 width={400}
                 src={famille3} 
                 alt="famille" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -207,7 +176,6 @@ const Galerie = () => {
                 width={400}
                 src={grossesse3} 
                 alt="grossesse" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -215,7 +183,6 @@ const Galerie = () => {
                 width={400}
                 src={mariage3} 
                 alt="mariage" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -223,7 +190,6 @@ const Galerie = () => {
                 width={400}
                 src={portrait3} 
                 alt="portrait" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -231,7 +197,6 @@ const Galerie = () => {
                 width={400}
                 src={bapteme4} 
                 alt="bapteme" 
-                className={stylePict} 
               />
             </div>
           </div>
@@ -276,7 +241,6 @@ const Galerie = () => {
                 width={400}
                 src={famille5} 
                 alt="famille" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -284,7 +248,6 @@ const Galerie = () => {
                 width={400}
                 src={grossesse5} 
                 alt="grossesse" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -292,7 +255,6 @@ const Galerie = () => {
                 width={400}
                 src={bebe4} 
                 alt="bebe" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -300,7 +262,6 @@ const Galerie = () => {
                 width={400}
                 src={couple4} 
                 alt="couple" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -308,7 +269,6 @@ const Galerie = () => {
                 width={400}
                 src={famille4} 
                 alt="famille" 
-                className={stylePict} 
               />
             </div>
             <div className={styles.OnePictContainer}>
@@ -316,13 +276,9 @@ const Galerie = () => {
                 width={400}
                 src={grossesse4} 
                 alt="grossesse" 
-                className={stylePict} 
               />
             </div>
           </div>
-        </div>
-        <div className={styles.BtnViewMore}>
-          <button onClick={changeStyle} className={styleBtn}>Voir plus... </button>
         </div>
     </div>
   )
