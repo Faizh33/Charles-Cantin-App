@@ -45,6 +45,7 @@ const Tarifs = () => {
             price ="Sur devis"
           />
         </div>
+        <div className={styles.backBottom}></div>
     </div>
   )
 }
