@@ -21,3 +21,9 @@
         justify-content: space-around;
     }
 }
+
+@media screen and (min-height: 934px) {
+    .BackBottom {
+        margin-bottom: 194px;
+    }
+}
