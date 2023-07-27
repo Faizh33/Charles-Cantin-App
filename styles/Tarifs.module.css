@@ -1,4 +1,4 @@
-.Tarifs {
+.Tarifs, .BackBottom {
     background-color: #EFF7FA;
 }
 
@@ -24,6 +24,6 @@
 
 @media screen and (min-height: 934px) {
     .BackBottom {
-        margin-bottom: 170px;
+        margin-bottom: 120px;
     }
 }
